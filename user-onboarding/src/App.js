@@ -78,7 +78,7 @@ function App() {
       last_name: formValues.lastName.trim(),
       email: formValues.email.trim(),
       password: formValues.password.trim(),
-      // terms: ['terms'].filter(item => !!formValues[item])
+      terms: ['terms'].filter(item => !!formValues[item])
     }
     
     postUser(aNewUser);
@@ -92,7 +92,7 @@ function App() {
   }, [formValues])
 
 
-  console.log(user);
+  
   
   
   return (

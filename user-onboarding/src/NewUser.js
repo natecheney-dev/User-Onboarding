@@ -13,11 +13,7 @@ export default function NewUser({ details }) {
         <p>Email: {details.email}</p>
         <p>UserID: {details.id}</p>
 
-        {
-            !!details.terms && <p>Terms: </p>
-            
-
-        }
+        
       </div>
     )
   }
